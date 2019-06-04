@@ -5,8 +5,9 @@ import {connect} from 'react-redux'
 const Navbar = ({ username }) => {
     return (
         <nav>
-            <Link to='/'>Home</Link>
-            <Link to='/login'>Login</Link>
+            <Link to='/'> Home </Link>
+            <Link to='/login'> Login </Link>
+            <Link to='/'> How It Works </Link>
             <span>{username && username}</span>
         </nav>
     )
