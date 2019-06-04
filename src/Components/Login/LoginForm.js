@@ -22,7 +22,7 @@ class LoginForm extends Component {
         axios
             .post('/auth/login', { username, password})
             .then((res) => {
-                console.log(err)
+                // console.log(err)
             })
         e.target.username.value = ''
         e.target.password.value = ''
