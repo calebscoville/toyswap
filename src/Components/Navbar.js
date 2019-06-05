@@ -10,7 +10,6 @@ const Navbar = ({ username }) => {
             <Link to='/howitworks'> How It Works </Link>
             <Link to='/about'> About </Link>
             <Link to='/donate'> Donate </Link>
-            <Link to='/test'> Test </Link>
             <span>{username && username}</span>
         </nav>
     )

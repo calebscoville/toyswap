@@ -6,7 +6,7 @@ import Login from './Components/Login/Login'
 import HowItWorks from './Components/HowItWorks'
 import About from './Components/About'
 import Donate from './Components/Donate'
-import Test from './Components/Test'
+
 
 export default (
     <Switch>
@@ -16,6 +16,6 @@ export default (
         <Route path='/howitworks' component={HowItWorks} />
         <Route path='/about' component={About} />
         <Route path='/donate' component={Donate} />
-        <Route path='/test' component={Test} />
+        
     </Switch>
 )
