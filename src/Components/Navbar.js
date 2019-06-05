@@ -6,10 +6,11 @@ const Navbar = ({ username }) => {
     return (
         <nav>
             <Link to='/'> Home </Link>
-            <Link to='/login'> Login </Link>
-            <Link to='/'> How It Works </Link>
-            <Link to='/'> About </Link>
-            <Link to='/'> Donate </Link>
+            <Link to='/login'> Login/Sign Up </Link>
+            <Link to='/howitworks'> How It Works </Link>
+            <Link to='/about'> About </Link>
+            <Link to='/donate'> Donate </Link>
+            <Link to='/test'> Test </Link>
             <span>{username && username}</span>
         </nav>
     )
