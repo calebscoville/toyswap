@@ -6,6 +6,7 @@ module.exports = {
         const db = req.app.get('db')
         const {session} = req
         const userFound = await db.check_user_email({ email })
+        console.log(userFound[0])
         if(userFound[0]) return res.status(409).send('Email already exists')
         const salt = bcrypt.genSaltSync(10)
         const hash = bcrypt.hashSync(password, salt)
@@ -21,7 +22,7 @@ module.exports = {
             socialmedia
         })
 
-        session.user = {id: createdUser[0].login_id, username: createdUser[0].username}
+        session.user = {id: createdUser[0].user_id, username: createdUser[0].username}
         res.status(200).send(session.user)
     },
 
