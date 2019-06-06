@@ -10,17 +10,13 @@ import {
     FormInput2,
     FormInput3,
     FormBtn
-  } from './AppStyles2';
+  } from './AppStylesPT';
 
   class PostToy extends React.Component {
     render() {
     return (
             
     <AppContainer>
-      <div>
-              <h1>Toy Information</h1>
-              
-          </div>
       <FormContainer>
         <FormHeader>
           <FormTitle>Add Toy Pictures Here</FormTitle>
@@ -30,10 +26,6 @@ import {
         <FormBtn register>Click Here to Add Link</FormBtn>
       </FormContainer>
 
-      <div>
-              <h1>Toy Information</h1>
-              
-          </div>
       <FormContainer>
         <FormHeader>
           <FormTitle>Enter Toy Information</FormTitle>

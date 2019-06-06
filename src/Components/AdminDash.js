@@ -9,17 +9,13 @@ import {
     FormTitle,
     FormInput,
     FormBtn
-  } from './AppStyles3';
+  } from './AppStylesAD';
 
   class AdminDash extends React.Component {
     render() {
     return (
             
     <AppContainer>
-      <div>
-              <h1>Toy Information</h1>
-              
-          </div>
       <FormContainer>
           <Image> Your Hot Pic Here :) </Image>
         <FormHeader>
@@ -33,10 +29,6 @@ import {
         <FormBtn register>Edit Profile</FormBtn>
       </FormContainer>
 
-      <div>
-              <h1>Toy Information</h1>
-              
-          </div>
       <FormContainer>
         <FormHeader>
           <FormTitle>What would you like to do rn?</FormTitle>

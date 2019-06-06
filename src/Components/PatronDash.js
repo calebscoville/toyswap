@@ -10,17 +10,14 @@ import {
     FormTitle,
     FormInput,
     FormBtn
-  } from './AppStyles4';
+  } from './AppStylesPD';
 
   class PatronDash extends React.Component {
     render() {
     return (
             
     <AppContainer>
-      <div>
-              <h1></h1>
-              
-          </div>
+
       <FormContainer>
           <Image> Your Hot Pic Here :) </Image>
         <FormHeader>
@@ -35,10 +32,6 @@ import {
         <FormBtn register>Edit Profile</FormBtn>
       </FormContainer>
 
-      <div>
-              <h1></h1>
-              
-          </div>
       <FormContainer>
         <FormHeader>
           <FormTitle>What would you like to do rn?</FormTitle>
@@ -50,10 +43,6 @@ import {
 
       </FormContainer>
 
-      <div>
-              <h1></h1>
-              
-          </div>
       <FormContainer>
         <FormHeader>
           <FormTitle>Your History</FormTitle>

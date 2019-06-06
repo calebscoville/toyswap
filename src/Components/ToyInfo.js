@@ -10,17 +10,13 @@ import {
     FormTitle,
     FormInput,
     FormBtn
-  } from './AppStyles';
+  } from './AppStylesTI';
 
 class ToyInfo extends React.Component {
     render() {
     return (
         
     <AppContainer>
-  <div>
-            <h1>Toy Information</h1>
-            
-        </div>
     <FormContainer>
       <FormHeader>
         <FormTitle>Awesome Pictures of the Toy You Just Clicked On</FormTitle>
@@ -31,12 +27,6 @@ class ToyInfo extends React.Component {
       <FormBtn register>Link to toy online for addtl. info</FormBtn>
     </FormContainer>
 
-
-
-    <div>
-            <h1>Toy Information</h1>
-            
-        </div>
     <FormContainer>
       <FormHeader>
         <FormTitle>Toy Information</FormTitle>
