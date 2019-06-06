@@ -67,8 +67,8 @@ export const FormInput = styled.input.attrs({
 `
 
 export const FormBtn = styled.button`
-  width: 30%;
-  height: 10%;
+  width: 15vw;
+  height: 7vh;
   background: ${props => props.register ? '#bd93f9' : '#f1fa8c'};
   color: #6272a4;
   border: none;

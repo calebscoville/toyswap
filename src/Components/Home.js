@@ -1,5 +1,6 @@
 import React from 'react'
 import 'reset-css'
+import {Link} from 'react-router-dom'
 
 import {
     AppContainer,
@@ -29,7 +30,8 @@ class Home extends React.Component {
       </FormContainer2>
       <FormTitle>STEM Robot Kit</FormTitle>
       <FormBtn>Check this toy out!</FormBtn>
-      <FormBtn register>See More Toys</FormBtn>
+      <Link to='/browsetoys'> <FormBtn register>See More Toys</FormBtn> </Link>
+      
     </FormContainer>
 
     </AppContainer>
