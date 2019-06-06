@@ -40,11 +40,16 @@ class ToyInfo extends React.Component {
     <FormContainer>
       <FormHeader>
         <FormTitle>Toy Information</FormTitle>
+            <text>
+                Title
+                Description
+                Condition
+                Missing Pieces
+                Additional Information
+                Tags
+            </text>
       </FormHeader>
-      <FormInput email="email" />
-      <FormInput />
       <FormBtn>Check this toy out!</FormBtn>
-      <FormBtn register>Link to toy online for addtl. info</FormBtn>
     </FormContainer>
 
     </AppContainer>

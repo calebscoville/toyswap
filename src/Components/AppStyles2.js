@@ -16,7 +16,7 @@ export const AppContainer = styled.div`
   height: 100vh;
   background: #282a36;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -46,15 +46,33 @@ export const FormTitle = styled.h1`
   font-size: 24px;
   color: #50fa7b;
 `
-
 export const FormInput = styled.input.attrs({
-  placeholder: props => props.email ? 'email' : 'password',
-  type: props => props.email ? 'email' : 'password'
-})`
-  width: 80%;
-  height: 10%;
-  outline: none;
-`
+    placeholder: props => props.title ? 'Title' : 'Description',
+    type: props => props.title ? 'Title' : 'Description'
+  })`
+    width: 80%;
+    height: 10%;
+    outline: none;
+  `
+
+  export const FormInput2 = styled.input.attrs({
+    placeholder: props => props.con ? 'Condition' : 'Missing Pieces',
+    type: props => props.title ? 'Condition' : 'Missing Pieces'
+  })`
+    width: 80%;
+    height: 10%;
+    outline: none;
+  `
+
+  export const FormInput3 = styled.input.attrs({
+    placeholder: props => props.add ? 'Addtl. Info' : 'URL for online info.',
+    type: props => props.title ? 'Addtl. Info' : 'URL for online info.'
+  })`
+    width: 80%;
+    height: 10%;
+    outline: none;
+  `
+
 
 export const FormBtn = styled.button`
   width: 80%;
