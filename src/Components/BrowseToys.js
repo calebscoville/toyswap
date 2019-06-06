@@ -1,22 +1,77 @@
 import React from 'react'
-import styled from 'styled-components'
+import 'reset-css'
 
-export const BrowseToys = () => {
+import {
+    AppContainer,
+    FormContainer,
+    Image,
+    Image2,
+    FormHeader,
+    FormTitle,
+    FormInput,
+    FormBtn
+  } from './AppStylesBT';
+
+  class BrowseToys extends React.Component {
+    render() {
     return (
-        <div>
-            <h1>Browse All Toys</h1>
-            <Button>Don't Touch This</Button>
-        </div>
-    )
+            
+    <AppContainer>
+
+      <FormContainer>
+          <Image> Pic of Cool Robot </Image>
+        <FormHeader>
+          <FormTitle>STEM Robot Kit</FormTitle>
+        </FormHeader>
+        <FormBtn register>See This Toy</FormBtn>
+      </FormContainer>
+
+      <FormContainer>
+          <Image> Pic of Criss Cross Crash </Image>
+        <FormHeader>
+          <FormTitle>Criss Cross Crash</FormTitle>
+        </FormHeader>
+        <FormBtn register>See This Toy</FormBtn>
+      </FormContainer>
+
+      <FormContainer>
+          <Image> Pic of Cool Robot </Image>
+        <FormHeader>
+          <FormTitle>STEM Robot Kit</FormTitle>
+        </FormHeader>
+        <FormBtn register>See This Toy</FormBtn>
+      </FormContainer>
+
+      <FormContainer>
+          <Image> Pic of Cool Robot </Image>
+        <FormHeader>
+          <FormTitle>STEM Robot Kit</FormTitle>
+        </FormHeader>
+        <FormBtn register>See This Toy</FormBtn>
+      </FormContainer>
+
+      <FormContainer>
+          <Image> Pic of Cool Robot </Image>
+        <FormHeader>
+          <FormTitle>STEM Robot Kit</FormTitle>
+        </FormHeader>
+        <FormBtn register>See This Toy</FormBtn>
+      </FormContainer>
+
+      <FormContainer>
+          <Image> Pic of Cool Robot </Image>
+        <FormHeader>
+          <FormTitle>STEM Robot Kit</FormTitle>
+        </FormHeader>
+        <FormBtn register>See This Toy</FormBtn>
+      </FormContainer>
+  
+      </AppContainer>
+  
+      
+  
+      )
+  }
 }
 
 export default BrowseToys
-
-const Button = styled.button`
-background: palevioletred;
-border-radius: 3px;
-border: 2px solid palevioletred;
-color: black;
-margin: 0 1em;
-padding: 0.25em 1em;
-`
