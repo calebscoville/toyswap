@@ -19,7 +19,23 @@ class ToyInfo extends React.Component {
     <AppContainer>
   <div>
             <h1>Toy Information</h1>
-            {/* <Button>Check Out This Toy</Button> */}
+            
+        </div>
+    <FormContainer>
+      <FormHeader>
+        <FormTitle>Awesome Pictures of the Toy You Just Clicked On</FormTitle>
+      </FormHeader>
+      {/* <FormInput email="email" />
+      <FormInput /> */}
+      {/* <FormBtn>+ Click here to upload pictures +</FormBtn> */}
+      <FormBtn register>Link to toy online for addtl. info</FormBtn>
+    </FormContainer>
+
+
+
+    <div>
+            <h1>Toy Information</h1>
+            
         </div>
     <FormContainer>
       <FormHeader>
@@ -30,7 +46,10 @@ class ToyInfo extends React.Component {
       <FormBtn>Check this toy out!</FormBtn>
       <FormBtn register>Link to toy online for addtl. info</FormBtn>
     </FormContainer>
+
     </AppContainer>
+
+    
 
     )
 }

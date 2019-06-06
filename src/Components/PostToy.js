@@ -1,22 +1,40 @@
 import React from 'react'
-import styled from 'styled-components'
+import 'reset-css'
 
-export const PostToy = () => {
+import {
+    AppContainer,
+    FormContainer,
+    FormHeader,
+    FormTitle,
+    FormInput,
+    FormBtn
+  } from './AppStyles';
+
+  class PostToy extends React.Component {
+    render() {
     return (
-        <div>
-            <h1>Post a Toy</h1>
-            <Button>Post it Like You Mean it</Button>
-        </div>
-    )
-}
+            
+    <AppContainer>
+      <div>
+              <h1>Toy Information</h1>
+              
+          </div>
+      <FormContainer>
+        <FormHeader>
+          <FormTitle>Toy Information</FormTitle>
+        </FormHeader>
+        <FormInput email="email" />
+        <FormInput />
+        <FormBtn>Check this toy out!</FormBtn>
+        <FormBtn register>Link to toy online for addtl. info</FormBtn>
+      </FormContainer>
+  
+      </AppContainer>
+  
+      
+  
+      )
+  }
+  }
 
 export default PostToy
-
-const Button = styled.button`
-background: palevioletred;
-border-radius: 3px;
-border: 2px solid palevioletred;
-color: black;
-margin: 0 1em;
-padding: 0.25em 1em;
-`
