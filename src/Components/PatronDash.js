@@ -1,5 +1,6 @@
 import React from 'react'
 import 'reset-css'
+import {Link} from 'react-router-dom'
 
 import {
     AppContainer,
@@ -36,9 +37,13 @@ import {
         <FormHeader>
           <FormTitle>What would you like to do rn?</FormTitle>
         </FormHeader>
-        <FormBtn>See All Toys</FormBtn>
+        <Link to='/browsetoys'>
+          <FormBtn>See All Toys</FormBtn> 
+        </Link>
+        
         <FormBtn register>Messages</FormBtn>
-        <FormBtn>Donate to the cause of toys!</FormBtn>
+        <Link to='/donate'> <FormBtn>Donate to the cause of toys!</FormBtn> </Link>
+        
         <FormBtn register></FormBtn>
 
       </FormContainer>

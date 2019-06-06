@@ -23,8 +23,8 @@ export const AppContainer = styled.div`
 `
 
 export const FormContainer = styled.form`
-  width: 30%;
-  height: 60%;
+  width: 90%;
+  height: 80%;
   background: #44475a;
   border: 2px solid #6272a4;
   display: flex;
@@ -32,24 +32,12 @@ export const FormContainer = styled.form`
   justify-content: space-around;
   align-items: center;
 `
-export const Image = styled.div`
-  width: 55%;
-  height: 35%;
-  background: orange;
+export const FormContainer2 = styled.form`
+  width: 90%;
+  height: 80%;
+  background: white;
+  border: 2px solid #6272a4;
   display: flex;
-  color: black;
-  font-family: bold;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-`
-export const Image2 = styled.div`
-  width: 55%;
-  height: 25%;
-  background: red;
-  display: flex;
-  color: black;
-  font-family: bold;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -68,37 +56,19 @@ export const FormTitle = styled.h1`
   font-size: 24px;
   color: #50fa7b;
 `
+
 export const FormInput = styled.input.attrs({
-    placeholder: props => props.title ? 'Title' : 'Description',
-    type: props => props.title ? 'Title' : 'Description'
-  })`
-    width: 80%;
-    height: 10%;
-    outline: none;
-  `
-
-  export const FormInput2 = styled.input.attrs({
-    placeholder: props => props.con ? 'Condition' : 'Missing Pieces',
-    type: props => props.title ? 'Condition' : 'Missing Pieces'
-  })`
-    width: 80%;
-    height: 10%;
-    outline: none;
-  `
-
-  export const FormInput3 = styled.input.attrs({
-    placeholder: props => props.add ? 'Addtl. Info' : 'URL for online info.',
-    type: props => props.title ? 'Addtl. Info' : 'URL for online info.'
-  })`
-    width: 80%;
-    height: 10%;
-    outline: none;
-  `
-
+  placeholder: props => props.email ? 'email' : 'password',
+  type: props => props.email ? 'email' : 'password'
+})`
+  width: 80%;
+  height: 10%;
+  outline: none;
+`
 
 export const FormBtn = styled.button`
-  width: 15vw;
-  height: 7vh;
+  width: 30%;
+  height: 10%;
   background: ${props => props.register ? '#bd93f9' : '#f1fa8c'};
   color: #6272a4;
   border: none;
