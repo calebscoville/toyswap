@@ -23,12 +23,14 @@ import {
       <FormContainer>
           <Image> Your Hot Pic Here :) </Image>
         <FormHeader>
-          <FormTitle>Toy Information</FormTitle>
+          <FormTitle>Caleb "BDC"</FormTitle>
         </FormHeader>
-        <FormInput email="email" />
-        <FormInput />
-        <FormBtn>Check this toy out!</FormBtn>
-        <FormBtn register>Link to toy online for addtl. info</FormBtn>
+        <text>You are an admin</text>
+        <text>Email: runcaleb@gmail.com</text>
+        <text>City: Orem</text>
+        <text>Toy posts to date: 3,453</text>
+        <text>Admin ID: 96024</text>
+        <FormBtn register>Edit Profile</FormBtn>
       </FormContainer>
 
       <div>
@@ -37,12 +39,13 @@ import {
           </div>
       <FormContainer>
         <FormHeader>
-          <FormTitle>Toy Information</FormTitle>
+          <FormTitle>What would you like to do rn?</FormTitle>
         </FormHeader>
-        <FormInput email="email" />
-        <FormInput />
-        <FormBtn>Check this toy out!</FormBtn>
-        <FormBtn register>Link to toy online for addtl. info</FormBtn>
+        <FormBtn>Post a Toy</FormBtn>
+        <FormBtn register>See All Toys</FormBtn>
+        <FormBtn>Messages</FormBtn>
+        <FormBtn register>Payments & Donations</FormBtn>
+
       </FormContainer>
   
       </AppContainer>

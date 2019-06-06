@@ -34,10 +34,11 @@ export const FormContainer = styled.form`
 `
 export const Image = styled.div`
   width: 55%;
-  height: 25%;
+  height: 35%;
   background: red;
   display: flex;
   color: black;
+  font-family: bold;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
